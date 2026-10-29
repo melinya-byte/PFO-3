@@ -74,7 +74,7 @@ py -m server.server --host 0.0.0.0 --port 5000 --workers 8
 
 
 ### 2. Ejecutar el cliente (en otra terminal)
-Abrir una **nueva** terminal y enviar tareas al servidor:
+Abrir una nueva terminal y enviar tareas al servidor:
 
 ```bash
 # Probar una suma
@@ -94,13 +94,13 @@ py -m client.client sleep 3
 A continuación se muestran las capturas de pantalla que demuestran el correcto funcionamiento del sistema.
 
 **1. Servidor levantado y esperando conexiones:**
-![Servidor en ejecución](img/im1.png)
+![Servidor en ejecución](img/im1.PNG)
 
 **2. Cliente enviando una suma y recibiendo el resultado:**
-![Cliente suma](img/im2.png)
+![Cliente suma](img/im2.PNG)
 
 **3. Cliente enviando una multiplicación y recibiendo el resultado:**
-![Cliente multiplicacion](img/im3.png)
+![Cliente multiplicacion](img/im3.PNG)
 
 **3. Cliente simulando una tarea pesada (sleep 3):**
-![Cliente sleep](img/im4.png)
+![Cliente sleep](img/im4.PNG)
